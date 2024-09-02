@@ -5,7 +5,7 @@ FROM python:3.8
 WORKDIR /app
 
 # Копируем файл с ботом в контейнер
-COPY бот_посвят_беседа.py /app
+COPY bot_text_pos.py /app
 
 # Устанавливаем зависимости (telebot)
 RUN pip install pyTelegramBotAPI
