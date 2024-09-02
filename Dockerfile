@@ -14,4 +14,4 @@ RUN pip install pyTelegramBotAPI
 # ENV TOKEN=ваш_токен
 
 # Запускаем скрипт
-CMD ["python", "бот_посвят_беседа.py"]
+CMD ["python", "bot_text_pos.py"]
