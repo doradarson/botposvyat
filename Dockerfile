@@ -7,8 +7,9 @@ WORKDIR /app
 # Копируем файл с ботом в контейнер
 COPY bot_text_pos.py /app
 
-# Устанавливаем зависимости (telebot)
-RUN pip install pyTelegramBotAPI
+RUN apt update && apt install python3 python3-pip
+
+RUN pip3 install pyTelegramBotAPI
 
 # Устанавливаем переменные окружения (если нужно)
 # ENV TOKEN=ваш_токен
