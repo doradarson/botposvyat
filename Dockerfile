@@ -15,4 +15,4 @@ RUN pip install pyTelegramBotAPI
 
 EXPOSE 8080
 # Запускаем скрипт
-CMD ["python", "bot_text_pos.py", "runserver", "0.0.0.0:8080"]
+CMD ["python", "bot_text_pos.py"]
